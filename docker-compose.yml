@@ -1,0 +1,9 @@
+version: "3.7"
+
+services:
+  postgres-db:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "15432:5432"
