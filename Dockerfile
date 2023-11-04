@@ -2,9 +2,9 @@
 FROM postgres:latest
 
 # Set environment variables for the PostgreSQL database
-ENV POSTGRES_DB luchtvaartmaatschappij
-ENV POSTGRES_USER Wiener-fan
-ENV POSTGRES_PASSWORD ciZ7xHbEuAN3cuqc7z0c8
+ENV POSTGRES_DB JennaReview
+ENV POSTGRES_USER admin
+ENV POSTGRES_PASSWORD Pa$$w0rd
 
 # Expose the default PostgreSQL port (5432)
 EXPOSE 5432
